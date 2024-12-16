@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex justify-between pl-36 pr-36 bg-white'>
+    <div className='flex justify-between pl-36 pr-36 pb-20 pt-5 bg-white'>
       <div className='flex-col'>
         Tổng đài
         <div>
@@ -12,7 +12,6 @@ const Footer = () => {
         Khiếu nại (8:00 - 21:30):1900 1275
         </div>
       </div>
-
       <div className='flex-col'>
         Hệ thống nhà thuốc
         <div className=' font-extralight'>

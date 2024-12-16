@@ -1,7 +1,7 @@
 
 
 
-const backendDomin = "http://localhost:7203"
+const backendDomin = "http://localhost:8000"
 
 const SummaryApi = {
     signUP :{

@@ -20,6 +20,7 @@ const Home = () => {
       <CT4/>
       <News/>
       <img src={banner1} alt='banner1' className='h-full pt-5'/>
+      <hr className=' border-t-2 border-gray-300'></hr>
       <Footer/>
       <div className='fixed bottom-4 right-1 boder h-16 w-16 rounded-full bg-lime-400 text-2xl z-30'>
           <div className='p-5 text-white hover:scale-150 transition-all object-scale-down hover:text-green-500'>
