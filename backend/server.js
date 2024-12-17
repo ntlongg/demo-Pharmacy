@@ -9,7 +9,7 @@ const path = require('path');
 const app = express();
 
 app.use(cors({
-    origin : 'https://demo-pharmacy-1c2kjig8q-thanhlongs-projects-f0d78073.vercel.app',
+    origin : process.env.FONTEND_URL,
     credentials : true
 }))
 
